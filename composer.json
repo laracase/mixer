@@ -1,0 +1,29 @@
+{
+    "name": "lada/mixer",
+    "type": "composer-plugin",
+    "description": "description",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Carl Wang",
+            "email": "x@carlwang.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lada\\Mixer\\": "src"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "composer-plugin-api": "^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "^2.5"
+    },
+    "extra": {
+        "class": "Lada\\Mixer\\Plugin",
+        "plugin-modifies-install-path": true
+    },
+    "minimum-stability": "stable"
+}
